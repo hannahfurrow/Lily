@@ -1,5 +1,11 @@
 body {
     background-image: url("lily.jpg");
+    background-size: cover;
+    background-color: red;
+
+
+body {
+    background-image: url("lily.jpg");
     background-size: cover;        /* makes image fill screen */
     background-position: center;   /* keeps it centered */
     background-repeat: no-repeat;  /* prevents tiling */

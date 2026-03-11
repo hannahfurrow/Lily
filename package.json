@@ -1,0 +1,1 @@
+{\n  "name": "my-app",\n  "version": "1.0.0",\n  "description": "A simple Node.js application",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js"\n  },\n  "dependencies": {\n    "express": "^4.17.1",\n    "multer": "^1.4.3",\n    "body-parser": "^1.19.0"\n  }\n}

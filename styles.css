@@ -5,6 +5,14 @@
     color: white;
 }
 
+body {
+    background-image: url("lily.jpg");
+    background-size: cover;        /* makes image fill screen */
+    background-position: center;   /* keeps it centered */
+    background-repeat: no-repeat;  /* prevents tiling */
+    background-attachment: fixed;  /* optional: keeps background still when scrolling */
+}
+
 .image-entry {
     max-width: 100%;
     height: auto;

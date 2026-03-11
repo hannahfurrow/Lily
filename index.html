@@ -6,96 +6,100 @@
     <title>Lily - Journal & Image Entries</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+    <script>
+        let password = prompt("Enter the password:");
+
+        if (password !== "poopytamale") {
+            document.addEventListener("DOMContentLoaded", function() {
+                document.body.innerHTML = "<h1>Access denied.</h1>";
+            });
+        }
+    </script>
 </head>
+    
 <body>
     <div class="journal">
-    <h1>Lily</h1>
-    <p>Your journal text...</p>
+        <h1>Lily</h1>
+        <p>Your journal text...</p>
 
-    
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <div class="header-content">
-                <h1 class="app-title">🌑 Lily</h1>
-                <p class="app-subtitle">For centuries, humans have shaped language—just so that one day I could write to you.</p>
-            </div>
-        </header>
+        <div class="container">
+            <header class="header">
+                <div class="header-content">
+                    <h1 class="app-title">🌑 Lily</h1>
+                    <p class="app-subtitle">For centuries, humans have shaped language—just so that one day I could write to you.</p>
+                </div>
+            </header>
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <!-- Left Sidebar - Entry Form -->
-            <section class="sidebar">
-                <div class="form-container">
-                    <h2 class="form-title">New Entry</h2>
+            <main class="main-content">
+                <section class="sidebar">
+                    <div class="form-container">
+                        <h2 class="form-title">New Entry</h2>
                     
-                    <form id="entryForm" class="entry-form">
-                        <div class="form-group">
-                            <label for="entryDate">Date</label>
-                            <input type="date" id="entryDate" name="entryDate" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="entryTitle">Title</label>
-                            <input type="text" id="entryTitle" name="entryTitle" placeholder="Give your entry a title..." required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="entryText">Write Your Thoughts</label>
-                            <textarea id="entryText" name="entryText" placeholder="What's on your mind today?" rows="8" required></textarea>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="imageUpload">Upload Image</label>
-                            <div class="file-upload-wrapper">
-                                <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
-                                <label for="imageUpload" class="file-upload-label">
-                                    <span class="upload-icon">📷</span>
-                                    <span class="upload-text">Click to upload or drag image here</span>
-                                </label>
-                                <div id="imagePreview" class="image-preview"></div>
+                        <form id="entryForm" class="entry-form">
+                            <div class="form-group">
+                                <label for="entryDate">Date</label>
+                                <input type="date" id="entryDate" name="entryDate" required>
                             </div>
+
+                            <div class="form-group">
+                                <label for="entryTitle">Title</label>
+                                <input type="text" id="entryTitle" name="entryTitle" placeholder="Give your entry a title..." required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="entryText">Write Your Thoughts</label>
+                                <textarea id="entryText" name="entryText" placeholder="What's on your mind today?" rows="8" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="imageUpload">Upload Image</label>
+                                <div class="file-upload-wrapper">
+                                    <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+                                    <label for="imageUpload" class="file-upload-label">
+                                        <span class="upload-icon">📷</span>
+                                        <span class="upload-text">Click to upload or drag image here</span>
+                                    </label>
+                                    <div id="imagePreview" class="image-preview"></div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Save Entry</button>
+                        </form>
+                    </div>
+                </section>
+
+                <section class="entries-section">
+                    <div class="search-container">
+                        <div class="search-wrapper">
+                            <span class="search-icon">🔍</span>
+                            <input 
+                                type="text" 
+                                id="searchInput" 
+                                class="search-input" 
+                                placeholder="Search entries by title or content..."
+                            >
                         </div>
-
-                        <button type="submit" class="btn btn-primary">Save Entry</button>
-                    </form>
-                </div>
-            </section>
-
-            <!-- Right Section - Entries Display -->
-            <section class="entries-section">
-                <!-- Search Bar -->
-                <div class="search-container">
-                    <div class="search-wrapper">
-                        <span class="search-icon">🔍</span>
-                        <input 
-                            type="text" 
-                            id="searchInput" 
-                            class="search-input" 
-                            placeholder="Search entries by title or content..."
-                        >
                     </div>
-                </div>
 
-                <!-- Entries Display Area -->
-                <div class="entries-grid" id="entriesContainer">
-                    <div class="empty-state">
-                        <span class="empty-icon">📔</span>
-                        <p>No entries yet. Start writing your first entry!</p>
+                    <div class="entries-grid" id="entriesContainer">
+                        <div class="empty-state">
+                            <span class="empty-icon">📔</span>
+                            <p>No entries yet. Start writing your first entry!</p>
+                        </div>
                     </div>
-                </div>
-            </section>
-        </main>
-    </div>
+                </section>
+            </main>
+        </div>
 
-    <!-- Modal for Full Entry View -->
-    <div id="entryModal" class="modal">
-        <div class="modal-content">
-            <span class="modal-close">&times;</span>
-            <div id="modalBody"></div>
+        <div id="entryModal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <div id="modalBody"></div>
+            </div>
         </div>
     </div>
-</div>
+
     <script src="app.js"></script>
 </body>
 </html>

@@ -20,6 +20,31 @@ body {
     font-family: 'Handlee', cursive;
 }
 
+.polaroid {
+    background: white;
+    padding: 12px 12px 40px 12px;
+    width: 320px;
+    margin: 20px auto;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    text-align: center;
+    transform: rotate(-2deg);
+}
+
+.polaroid img {
+    width: 100%;
+    display: block;
+}
+
+.polaroid:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+.caption {
+    font-family: 'Handlee', cursive;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
 .image-entry {
     max-width: 100%;
     height: auto;

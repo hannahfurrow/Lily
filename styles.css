@@ -3,9 +3,10 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
-    max-width: 700px;
+    max-width: 1000px;
+    width: 90%
     margin: 60px auto;
-    padding: 30px;
+    padding: 40px;
 
     border-radius: 14px;
     box-shadow: 0 15px 40px rgba(0,0,0,0.25);
@@ -158,7 +159,7 @@ textarea {
 .journal-page {
     background: #fffdf7;
     width: 100%;
-    max-width: 750px;
+    max-width: 850px;
     max-height: 650px;
     padding: 40px;
     border-radius: 12px;
@@ -219,12 +220,14 @@ textarea {
 
 .journal-layout{
     display:flex;
-    justify-content:center;  /* keeps it centered */
-    gap:30px;
+    justify-content:center;
+    align-items:flex-start;
+    gap:40px;
+    max-width:1000px;
 }
 
 .journal-index{
-    width:220px;
+    width:240px;
     background:#fffdf7;
     padding:15px;
     border-radius:10px;

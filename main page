@@ -1,8 +1,0 @@
-/* styles.css */
-
-body {
-    background-color: #0F52BA; /* Sapphire blue */
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: white;
-}

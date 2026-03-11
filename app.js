@@ -1,30 +1,59 @@
-function displayJournalEntries() {
-    const displayArea = document.getElementById("entriesContainer");
-    displayArea.innerHTML = "";
+let currentPage = 0;
+
+function showJournalPage(index) {
+    const title = document.getElementById("pageTitle");
+    const date = document.getElementById("pageDate");
+    const text = document.getElementById("pageText");
+    const image = document.getElementById("pageImage");
+    const pageNumber = document.getElementById("pageNumber");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
 
     if (!journalEntries || journalEntries.length === 0) {
-        displayArea.innerHTML = `
-            <div class="empty-state">
-                <span class="empty-icon">📔</span>
-                <p>No entries yet. Start writing your first entry!</p>
-            </div>
-        `;
+        title.textContent = "No Entries Yet";
+        date.textContent = "";
+        text.textContent = "There are no journal entries to display.";
+        image.style.display = "none";
+        pageNumber.textContent = "";
+        prevBtn.disabled = true;
+        nextBtn.disabled = true;
         return;
     }
 
-    journalEntries.forEach((entry) => {
-        const entryDiv = document.createElement("div");
-        entryDiv.classList.add("journal-entry");
+    const entry = journalEntries[index];
 
-        entryDiv.innerHTML = `
-            <h3>${entry.title}</h3>
-            <p><strong>${entry.date}</strong></p>
-            <p>${entry.text}</p>
-            ${entry.image ? `<img src="${entry.image}" alt="${entry.title}">` : ""}
-        `;
+    title.textContent = entry.title;
+    date.textContent = entry.date;
+    text.textContent = entry.text;
 
-        displayArea.appendChild(entryDiv);
-    });
+    if (entry.image) {
+        image.src = entry.image;
+        image.alt = entry.title;
+        image.style.display = "block";
+    } else {
+        image.style.display = "none";
+    }
+
+    pageNumber.textContent = `Page ${index + 1} of ${journalEntries.length}`;
+
+    prevBtn.disabled = index === 0;
+    nextBtn.disabled = index === journalEntries.length - 1;
 }
 
-displayJournalEntries();
+document.getElementById("prevBtn").addEventListener("click", function() {
+    if (currentPage > 0) {
+        currentPage--;
+        showJournalPage(currentPage);
+    }
+});
+
+document.getElementById("nextBtn").addEventListener("click", function() {
+    if (currentPage < journalEntries.length - 1) {
+        currentPage++;
+        showJournalPage(currentPage);
+    }
+});
+
+window.onload = function() {
+    showJournalPage(currentPage);
+};

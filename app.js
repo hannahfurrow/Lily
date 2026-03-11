@@ -47,6 +47,25 @@ document.getElementById("prevBtn").addEventListener("click", function() {
     }
 });
 
+function buildIndex() {
+    const indexList = document.getElementById("indexList");
+    indexList.innerHTML = "";
+
+    journalEntries.forEach((entry, i) => {
+        const li = document.createElement("li");
+
+        li.textContent = entry.date;
+        li.style.cursor = "pointer";
+
+        li.onclick = function () {
+            currentPage = i;
+            showJournalPage(i);
+        };
+
+        indexList.appendChild(li);
+    });
+}
+
 document.getElementById("nextBtn").addEventListener("click", function() {
     if (currentPage < journalEntries.length - 1) {
         currentPage++;
@@ -54,6 +73,7 @@ document.getElementById("nextBtn").addEventListener("click", function() {
     }
 });
 
-window.onload = function() {
+window.onload = function () {
+    buildIndex();
     showJournalPage(currentPage);
 };

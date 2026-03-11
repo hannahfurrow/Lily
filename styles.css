@@ -158,9 +158,9 @@ textarea {
 .journal-page {
     background: #fffdf7;
     width: 100%;
-    max-width: 500px;
+    max-width: 750px;
     max-height: 650px;
-    padding: 35px;
+    padding: 40px;
     border-radius: 12px;
     box-shadow: 0 8px 18px rgba(0,0,0,0.18);
     font-family: 'Handlee', cursive;
@@ -197,12 +197,12 @@ textarea {
     color: #333;
 }
 
-.page-image {
-    width: 100%;
-    max-width: 320px;
-    display: block;
-    margin: 0 auto 20px auto;
-    border-radius: 10px;
+.page-image{
+    width:100%;
+    max-width:350px;
+    margin:0 auto 20px auto;
+    display:block;
+    border-radius:10px;
 }
 
 .page-controls {
@@ -219,11 +219,12 @@ textarea {
 
 .journal-layout{
     display:flex;
+    justify-content:center;  /* keeps it centered */
     gap:30px;
 }
 
 .journal-index{
-    width:180px;
+    width:220px;
     background:#fffdf7;
     padding:15px;
     border-radius:10px;

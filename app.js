@@ -1,33 +1,30 @@
-// app.js
-
-// Function to add a journal entry
-function addJournalEntry(entryText, imageUrl) {
-    const journalEntries = getJournalEntries(); // Assuming this function fetches current entries
-    const newEntry = {
-        text: entryText,
-        image: imageUrl,
-        date: new Date().toUTCString()
-    };
-    journalEntries.push(newEntry);
-    saveJournalEntries(journalEntries); // Save the updated entries back
-}
-
-// Function to display journal entries
 function displayJournalEntries() {
-    const journalEntries = getJournalEntries(); // Fetch current entries
-    const displayArea = document.getElementById('journal-display');
-    displayArea.innerHTML = '';
-    journalEntries.forEach(entry => {
-        const entryDiv = document.createElement('div');
-        entryDiv.classList.add('journal-entry');
-        entryDiv.innerHTML = `<h3>${entry.date}</h3><p>${entry.text}</p>`;
-        if (entry.image) {
-            entryDiv.innerHTML += `<img src='${entry.image}' alt='Journal Entry Image'>`;
-        }
+    const displayArea = document.getElementById("entriesContainer");
+    displayArea.innerHTML = "";
+
+    if (!journalEntries || journalEntries.length === 0) {
+        displayArea.innerHTML = `
+            <div class="empty-state">
+                <span class="empty-icon">📔</span>
+                <p>No entries yet. Start writing your first entry!</p>
+            </div>
+        `;
+        return;
+    }
+
+    journalEntries.forEach((entry) => {
+        const entryDiv = document.createElement("div");
+        entryDiv.classList.add("journal-entry");
+
+        entryDiv.innerHTML = `
+            <h3>${entry.title}</h3>
+            <p><strong>${entry.date}</strong></p>
+            <p>${entry.text}</p>
+            ${entry.image ? `<img src="${entry.image}" alt="${entry.title}">` : ""}
+        `;
+
         displayArea.appendChild(entryDiv);
     });
 }
 
-// Example usage of the functions
-// addJournalEntry('My first entry!', 'http://example.com/image.jpg');
-// displayJournalEntries();
+displayJournalEntries();

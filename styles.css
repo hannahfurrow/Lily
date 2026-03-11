@@ -146,3 +146,72 @@ textarea {
 .journal-entry p {
     white-space: pre-line;
 }
+
+
+.journal-book {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.journal-page {
+    background: #fffdf7;
+    width: 100%;
+    max-width: 500px;
+    min-height: 650px;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+    font-family: 'Handlee', cursive;
+    line-height: 1.8;
+    position: relative;
+}
+
+.journal-page::before {
+    content: "";
+    position: absolute;
+    left: 28px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(200, 80, 80, 0.18);
+}
+
+#pageTitle {
+    font-size: 30px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.page-date {
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.page-text {
+    white-space: pre-line;
+    font-size: 20px;
+    color: #333;
+}
+
+.page-image {
+    width: 100%;
+    max-width: 320px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+}
+
+.page-controls {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#pageNumber {
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+}

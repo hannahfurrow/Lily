@@ -22,13 +22,13 @@ function showJournalPage(index) {
 
     const entry = journalEntries[index];
 
-    title.textContent = entry.title;
-    date.textContent = entry.date;
-    text.textContent = entry.text;
+    title.textContent = entry.title || "";
+    date.textContent = entry.date || "";
+    text.textContent = entry.text || "";
 
     if (entry.image) {
         image.src = entry.image;
-        image.alt = entry.title;
+        image.alt = entry.title || "Journal image";
         image.style.display = "block";
     } else {
         image.style.display = "none";
@@ -39,13 +39,6 @@ function showJournalPage(index) {
     prevBtn.disabled = index === 0;
     nextBtn.disabled = index === journalEntries.length - 1;
 }
-
-document.getElementById("prevBtn").addEventListener("click", function() {
-    if (currentPage > 0) {
-        currentPage--;
-        showJournalPage(currentPage);
-    }
-});
 
 function buildIndex() {
     const indexList = document.getElementById("indexList");
@@ -65,6 +58,29 @@ function buildIndex() {
         indexList.appendChild(li);
     });
 }
+
+function toggleMusic() {
+    const music = document.getElementById("bgmusic");
+    const vinyl = document.getElementById("vinyl");
+    const button = document.querySelector(".music-btn");
+
+    if (music.paused) {
+        music.play();
+        vinyl.classList.add("spinning");
+        button.textContent = "Pause Music";
+    } else {
+        music.pause();
+        vinyl.classList.remove("spinning");
+        button.textContent = "Play Music";
+    }
+}
+
+document.getElementById("prevBtn").addEventListener("click", function() {
+    if (currentPage > 0) {
+        currentPage--;
+        showJournalPage(currentPage);
+    }
+});
 
 document.getElementById("nextBtn").addEventListener("click", function() {
     if (currentPage < journalEntries.length - 1) {

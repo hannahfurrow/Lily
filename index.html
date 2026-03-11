@@ -33,63 +33,22 @@
             </header>
 
             <main class="main-content">
-                <section class="sidebar">
-                    <div class="form-container">
-                        <h2 class="form-title">New Entry</h2>
-                    
-                        <form id="entryForm" class="entry-form">
-                            <div class="form-group">
-                                <label for="entryDate">Date</label>
-                                <input type="date" id="entryDate" name="entryDate" required>
-                            </div>
+            <section class="sidebar">
+    <div class="journal-book">
+        <div class="journal-page" id="journalPage">
+            <h2 id="pageTitle"></h2>
+            <p id="pageDate" class="page-date"></p>
+            <img id="pageImage" class="page-image" src="" alt="" style="display: none;">
+            <p id="pageText" class="page-text"></p>
+        </div>
 
-                            <div class="form-group">
-                                <label for="entryTitle">Title</label>
-                                <input type="text" id="entryTitle" name="entryTitle" placeholder="Give your entry a title..." required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="entryText">Write Your Thoughts</label>
-                                <textarea id="entryText" name="entryText" placeholder="What's on your mind today?" rows="8" required></textarea>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="imageUpload">Upload Image</label>
-                                <div class="file-upload-wrapper">
-                                    <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
-                                    <label for="imageUpload" class="file-upload-label">
-                                        <span class="upload-icon">📷</span>
-                                        <span class="upload-text">Click to upload or drag image here</span>
-                                    </label>
-                                    <div id="imagePreview" class="image-preview"></div>
-                                </div>
-                            </div>
-
-                            <button type="submit" class="btn btn-primary">Save Entry</button>
-                        </form>
-                    </div>
-                </section>
-
-                <section class="entries-section">
-                    <div class="search-container">
-                        <div class="search-wrapper">
-                            <span class="search-icon">🔍</span>
-                            <input 
-                                type="text" 
-                                id="searchInput" 
-                                class="search-input" 
-                                placeholder="Search entries by title or content..."
-                            >
-                        </div>
-                    </div>
-
-                    <div class="entries-grid" id="entriesContainer">
-                        <div class="empty-state">
-                            <span class="empty-icon">📔</span>
-                            <p>No entries yet. Start writing your first entry!</p>
-                        </div>
-                    </div>
-                </section>
+        <div class="page-controls">
+            <button id="prevBtn" class="btn btn-primary">Previous</button>
+            <span id="pageNumber"></span>
+            <button id="nextBtn" class="btn btn-primary">Next</button>
+        </div>
+    </div>
+</section>
             </main>
         </div>
 

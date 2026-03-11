@@ -215,3 +215,31 @@ textarea {
     font-family: 'Handlee', cursive;
     font-size: 18px;
 }
+
+.journal-layout{
+    display:flex;
+    gap:30px;
+}
+
+.journal-index{
+    width:180px;
+    background:#fffdf7;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 6px 14px rgba(0,0,0,0.15);
+    font-family:'Handlee',cursive;
+}
+
+.journal-index ul{
+    list-style:none;
+    padding:0;
+}
+
+.journal-index li{
+    padding:6px 0;
+    border-bottom:1px solid #eee;
+}
+
+.journal-index li:hover{
+    color:#888;
+}

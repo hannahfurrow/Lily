@@ -27,3 +27,24 @@ function showRoom(room) {
         `;
     }
 }
+
+function toggleMusic() {
+    const music = document.getElementById("bgmusic");
+    const vinyl = document.getElementById("vinyl");
+    const button = document.querySelector(".music-btn");
+
+    if (music.paused) {
+        music.play()
+            .then(() => {
+                vinyl.classList.add("spinning");
+                button.textContent = "Pause Music";
+            })
+            .catch((error) => {
+                console.log("Music would not play:", error);
+            });
+    } else {
+        music.pause();
+        vinyl.classList.remove("spinning");
+        button.textContent = "Play Music";
+    }
+}

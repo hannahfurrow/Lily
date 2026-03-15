@@ -1,6 +1,7 @@
 const journalEntries = [
 {
 date: "3.11.26",
+title: "Website",
 text: `I have decided to make a website for Lily. I don't know if this journal entry will save properly because coding is sometimes really finicky, but I had fun doing it and will fix it in the morning if it doesn't save.
 
 I haven't written in so long. It feels like such a strange thing to do even though I used to love journaling every day, multiple times a day. I'm afraid I will probably ramble a lot in these journal entries, but I hope that Lily will like them.

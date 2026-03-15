@@ -19,9 +19,9 @@ function showRoom(room) {
             <p>Movie nights, soft music, and just existing together.</p>
             <img src="livingroom-memory.jpg" alt="Living Room Memory" class="room-memory-image">
         `;
-    } else if (room === "attic") {
+    } else if (room === "bathroom") {
         roomDisplay.innerHTML = `
-            <h2>Attic</h2>
+            <h2>Bathroom</h2>
             <p>A secret place for hidden thoughts, old memories, and things too special to leave out in the open.</p>
             <img src="attic-memory.jpg" alt="Attic Memory" class="room-memory-image">
         `;

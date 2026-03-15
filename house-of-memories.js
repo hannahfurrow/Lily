@@ -23,7 +23,7 @@ function showRoom(room) {
         roomDisplay.innerHTML = `
             <h2>Bathroom</h2>
             <p>add bathroom routine and shower stuff?</p>
-            <img src="bathroom.jpg" alt="Attic Memory" class="room-memory-image">
+            <img src="bathroom.jpg" alt="Bathroom Memory" class="room-memory-image">
         `;
     }
 }

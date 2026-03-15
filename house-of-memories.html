@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory House</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="journal">
+        <h1>Memory House</h1>
+        <p class="house-subtitle">Click a room to open a memory.</p>
+
+        <div class="house-wrapper">
+            <div class="house-map">
+                <img src="house.png" alt="Memory House" class="house-image">
+
+                <button class="room-btn bedroom" onclick="showRoom('bedroom')">Bedroom</button>
+                <button class="room-btn kitchen" onclick="showRoom('kitchen')">Kitchen</button>
+                <button class="room-btn livingroom" onclick="showRoom('livingroom')">Living Room</button>
+                <button class="room-btn attic" onclick="showRoom('attic')">Attic</button>
+            </div>
+
+            <div class="room-display" id="roomDisplay">
+                <h2>Welcome</h2>
+                <p>Choose a room in the house to view a memory.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="memory-house.js"></script>
+</body>
+</html>

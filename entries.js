@@ -56,7 +56,7 @@ After sex, we just cuddled up together and she fell asleep quickly like she alwa
 She’s on her way to Nebraska now, and I just hope that she has a safe drive. I love her. I hope I have more weekends like this until there are no more weekends to have. 
 `,
 image: "biscuits.jpg"
-}
+},
 
 {
 date: "3.16.26",

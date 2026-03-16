@@ -58,4 +58,30 @@ She’s on her way to Nebraska now, and I just hope that she has a safe drive. I
 image: "biscuits.jpg"
 }
 
+{
+  date: "3.16.26",
+  title: "A world with you", 
+  text: `I’ve had this thought running through my head that the world has ended. 
+The sky doesn’t look the same, the wind no longer touches my skin like it once did, and the birds don’t take flight the way they have before. 
+  
+Do I think this is bad though? No. 
+  
+Because I’ve also had this thought that there’s been a new world created. One where the empty spaces are longing to be filled with your presence. 
+  
+The sky looks down from above and spells your names in the clouds; the wind breezes past me, reminding me of how much I desire your touch; the birds fly in a pointed direction, leading to you.
+  
+The mechanics of this new world are mostly left to mystery, but I think I’ve figured out some of it. 
+  
+I believe this new world spins because I have watched you spin. I believe this new world flows without end because I have seen ink drip from your pen. I believe this new world has gravity because I have felt the pressure of your body pressed into mine when you lay yourself onto me.
+You have made sense of the very thing that scientists have spent centuries trying to understand. 
+  
+And you’ve done this by creating a new world.
+  
+This is a world that belongs to you because it is my world, and I can’t imagine who else I would want to give my world to.
+  
+What a world I live in. A world with you.`,
+
+}
+
+
 ];

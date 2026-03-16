@@ -62,6 +62,7 @@ image: "biscuits.jpg"
 date: "3.16.26",
 title: "A world with you", 
 text: `I’ve had this thought running through my head that the world has ended. 
+
 The sky doesn’t look the same, the wind no longer touches my skin like it once did, and the birds don’t take flight the way they have before. 
   
 Do I think this is bad though? No. 

@@ -59,9 +59,9 @@ image: "biscuits.jpg"
 }
 
 {
-  date: "3.16.26",
-  title: "A world with you", 
-  text: `I’ve had this thought running through my head that the world has ended. 
+date: "3.16.26",
+title: "A world with you", 
+text: `I’ve had this thought running through my head that the world has ended. 
 The sky doesn’t look the same, the wind no longer touches my skin like it once did, and the birds don’t take flight the way they have before. 
   
 Do I think this is bad though? No. 
@@ -80,6 +80,8 @@ And you’ve done this by creating a new world.
 This is a world that belongs to you because it is my world, and I can’t imagine who else I would want to give my world to.
   
 What a world I live in. A world with you.`,
+
+image: "world.jpg"
 
 }
 

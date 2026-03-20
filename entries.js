@@ -89,8 +89,7 @@ image: "world.jpg"
 {
 date: "3.18.26",
 title: "The night we adopted Ellie",
-text: `3.18.26
-It’s currently 8:12 pm, and I’m at Lily’s place while she’s at practice. Lana is currently playing on her gigantic speaker, and I’m on her balcony thinking about her as I’m writing this and smoking a cigarette. 
+text: `It’s currently 8:12 pm, and I’m at Lily’s place while she’s at practice. Lana is currently playing on her gigantic speaker, and I’m on her balcony thinking about her as I’m writing this and smoking a cigarette. 
 
 She just got back yesterday from her family trip to Omaha, and I have desperately been needing her in my arms that entire time, but it also warmed my heart knowing she was with family that loves and cherishes her so much.
 

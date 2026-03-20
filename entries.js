@@ -84,7 +84,66 @@ What a world I live in. A world with you.`,
 
 image: "world.jpg"
 
+},
+
+{
+date: "3.18.26",
+title: "The night we adopted Ellie",
+text: `3.18.26
+It’s currently 8:12 pm, and I’m at Lily’s place while she’s at practice. Lana is currently playing on her gigantic speaker, and I’m on her balcony thinking about her as I’m writing this and smoking a cigarette. 
+
+She just got back yesterday from her family trip to Omaha, and I have desperately been needing her in my arms that entire time, but it also warmed my heart knowing she was with family that loves and cherishes her so much.
+
+I hope that one day I’ll have the vocabulary to express to her how much I love and cherish her.
+W
+hen she came back, I visited her before she went to practice, and she gave me a tour of all the cute tops she got. She’s so sexy. Everything that she picked out was destined to be worn by her, I swear.
+
+As excited I was to see all her clothes, I also had this clawing desire to see her without any clothes. 
+
+Luckily, I think she was feeling the same and soon we began to fuck on her bed. There are many places I would fuck Lily, but seeing her naked in her sheets of white does something to me.
+
+I wanted to take my time. I wanted to lick every part of her and make up for the time that my hands have lacked the very skin that makes my own shiver and tingle. I needed her so badly, but I also needed her to know that undying thirst to have her is something that I am willing to wait for. 
+
+After she finished, I noticed that the time was cutting it close, and I told her that she needed to start getting ready for practice. Her response to this was to get on top of me and melt any worry that I had for her tardiness. She ate me out until I came and told me in the sexiest voice to not worry about the time. 
+
+I think that just the way she says things like that could make my body explode.
+
+After sex, we stood on her balcony and smoked a cigarette together, and I told her that she’s my dream girl. I wish I could’ve worded that better. I need to write some poetry about that sometime.
+
+Later that night, I got so drunk. I knew going into the night that all I wanted was Lily. I couldn’t stop thinking about her. I couldn’t stop thirsting for her and the only thing that I could reach to drink was tequila. The tequila was good, but it wasn’t Lily. It wasn’t my Lily.
+
+In my head, I concocted the plan to call her later that night. In my drunken stupor, I didn’t care that I knew she had work in the morning. All I knew was that I needed her. I needed to be in the same bed with her that night, wrapped in her arms. 
+
+After a night of drinking and uncoordinated dancing, we finally decided to go back to Elie’s. That’s when I knew I couldn’t stop myself from picking up my phone and calling the only person that could make me feel a sense of completeness that I had been wanting all night.
+
+She didn’t pick up after a couple of times, and I was beginning to feel sad, but I was also coming to terms that perhaps it was for the better. It was a good thing that she was getting sleep. In the end, I decided to just leave her a voicemail, and to my surprise, she answered it. Dylan stole the phone from me before I could melt into her voice, but I could tell that she and Lily were having a good conversation. 
+
+I vaguely remember what I was yelling, but I think it was Ellie’s address mixed with words begging about how much I needed to sleep in the same bed with her that night. 
+
+Eventually, we got to Ellie’s, and I don’t remember a single thing between that moment and Lily arriving, but that doesn’t matter. What mattered was that Lily was there. She was actually there. 
+
+And oh my god, it was better than I could’ve ever wished for. She wore her cute plaid pj pants and her crop top that she wore on our first date. I remember just being glued to her. My hands, my eyes, and if everyone wasn’t there, my lips would’ve been too. 
+
+We talked to the group for a while as Lily sat in my lap and laughed. I love her laugh. So much. I kept telling her how pretty she was because I think that she needs to be told that as often as possible. It would be a mistake not to tell her this blatantly obvious quality about her.
+
+Eventually, we made our way to the porch to smoke a cigarette while Dylan yelled at us about our wedding. I held Lily the entire time. Partially because I was very unsteady but mostly because I was so afraid to let her go. That perhaps this was all just a dream and that she may vanish if i let go. So I held on. I held on so tight, I hope I didn’t hurt her. 
+
+After that, she drove me home, and I rolled down the window to tell the world that I love my girlfriend because when there’s this undeniable feeling in my soul, I need to just let it out. I didn’t care who heard. In fact, I wanted everyone to hear. I wanted Lily to hear how loudly I love her. Loud enough so that she knew that I could never regret loving her. 
+
+She helped me up to her apartment, but I didn’t make it easy for her because I needed her lips on mine. I needed our skin to share the same closeness that I feel for her in my heart. 
+
+When we got to her apartment, I drunkenly got into bed and told her how much I love her pussy, and she told me I was too drunk to do anything. 
+
+I was okay with that though because I got to just lay in her arms and tell her everything about my night and how much I missed her. She was so tired, but I couldn’t stop myself from spilling out the details about each moment that we were apart. I want to share all my moments with her–the ones where we’re not together and the ones where we get the fortune of spending them together.
+
+I got up sometime in the middle of the night to grab a sandwich from her fridge, and then I finally got into bed, and we went to bed. Together. Wrapped so tightly within each other. It couldn’t have been a better night. A night with Lily. A night with my Lily.
+
+I love her so much. `,
+
+image: "drunk.jpg"
+
 }
+
 
 
 ];

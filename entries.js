@@ -141,7 +141,107 @@ I love her so much. `,
 
 image: "drunk.jpg"
 
-}
+},
+
+{
+date: "3.19.26",
+title: "A Soupy Adventure Time",
+text: `
+
+
+Today is the day that Lily left for ORCs. Ever since we said goodbye to each other at 5:40 this morning, I have not stopped thinking about her and missing her. 
+
+I also can’t stop thinking about yesterday. She woke up early in the morning because she was scheduled to work that morning. Before she left, she left her water bottle with me in case I got thirsty, and she set her notebook by the bed for me to read.
+
+It was all so sweet.
+
+When she left, I put on a YouTube video for me to watch and fall asleep to. Less than 20 minutes later, I heard the front door open again, and Lily came in. I couldn’t believe my eyes. I couldn’t believe how lucky I was to see her again. 
+
+She made it back to my arms again and told me that they apparently didn’t need everyone, and she volunteered to go home. We fell asleep again in each other's arms and didn’t wake up until 10 am that day. 
+
+She made coffee and had to set up a dentist appointment because her bracket broke again. I 
+got to just watch her and admire how beautiful she is. 
+
+…
+
+Lily told me two nights ago that freckles are supposedly kisses from past lovers. I asked her if I could be her past lovers, and she said yes. What I didn’t tell her is that I hope to be her future lovers too.
+
+I hope this is the case because I don’t think the amount of love that I hold for her could ever be contained into just one lifetime. 
+
+It has to span across several.
+
+I need to believe that there is time after us and before us where my love for her finds a way to her. 
+
+…
+
+We went to Dutch Bros that morning, and then she dropped me off at my car. On the way there, she almost ran a red light and started crying to me about it. I won’t lie, I was a bit confused when she cried. 
+
+I was confused because, in my head, she had done nothing wrong. All she had done was show me love and care that entire morning. I think perhaps it was her perfectionism that was taking over at the moment. Whatever it was, I just wanted to kiss her all over and tell her that everything was okay.
+
+We talked in the car a bit about it before I left, and I hope that I was able to make her feel better about things. 
+
+I got back to my place, fed and hung out with Sprite, and read the journal Lily had let me borrow. I wasn’t able to get all the way through it, but I do remember how hard it was to put it down. 
+
+The tiny words that Lily had written to me were the only thing that mattered in those moments. I read and imagined what she must’ve looked like while writing. I imagined her hair fell down towards the pages, a small smile on her lips, and her eyes reflecting whatever candle she had lit at the time. 
+
+Soon enough, it was already way past the time for me to leave and grab soup. I made my way to the Merc and grabbed us chicken and dumpling soup. On my way out, I saw these beautiful white tulips. I was so happy to find them because they hadn’t quite bloomed which meant they would hopefully bloom by the time that Lily got back from ORCs. 
+
+They were white and delicate, and I knew I had to get them for Lily.
+
+I eventually reached Lily’s, and we kissed. We always kiss whenever she opens her door, and I always love it each time. We sat down on the couch together to watch Adventure time and eat our soup. 
+
+I don’t think there’s anyone in the world except for Lily that could make eating soup and watching Adventure Time feel so heavenly. 
+
+Soon enough, we had to pause the show because she needed to go to Topeka to see the dentist. We both parted ways, and I spent the time smoking a cigarette with Ellie and then going to therapy.
+
+I got to show my therapist the painting I made for Lily, and she loved it. I hope that Lily loves it too. I showed it to my therapist in an unfinished state because I just finished it today, but Chloe was excited for me to finish it. 
+
+After therapy, I visited my apartment for a bit and then headed over to Lily’s around 5 pm. Her door opened and, once again, my lips were home. 
+
+I got to read more of the journal while she practiced mock trial debate. Shortly after, we got hungry and started making some dinner together. The dinner we made together wasn’t anything special, but it wasn’t horrible. 
+
+For the second time that day, I saw Lily cry.
+
+She said she felt bad that we had a bad meal together, and I responded by telling her that every meal with her is a good one because I am with her. 
+
+I find this to be the truth because never have I felt such an urge to share a meal with someone other than Lily. 
+
+I need it all. I need the enjoyment of being in a grocery store with her, planning our meal together. I need the glow of her kitchen light reflecting on her eyes while we heat up the pan. I need my hands to be fitted to the curves of her waist while she cuts up our veggies. I need to be placed in the moment when the food touches her lips, clearly outlining the path that mine should follow. 
+
+I don’t mind if the food lacks flavor or doesn’t pleasantly settle on my tongue. I know that her company and her kiss is enough for me, and I wouldn’t dare ask for more. 
+
+I wiped her tears from her cheek, and told her that I love her. We then realized the time, and Lily told me she had to leave for practice. I offered to take her there, and I decided to stay at her apartment while she was gone since I was staying the night.
+
+I took Lily to her practice and rushed home so that way I could pack a bag to stay the night with her. When I got to my place, I saw my worry stone on my desk and thought about how stressed she seemed that day. I didn’t know if it would help at all, but I wanted to do something to hopefully make her feel a bit better, so I packed the stone in a little baggy with a note and some mints. 
+
+I came back to hers and did the dishes, so that way she wouldn’t need to worry about them after practice and could just focus on showering and getting some sleep before waking up early for her trip. 
+
+I went to pick her up from practice from Sophia’s, and we went home while she told me a bit about practice and how annoying this once podcast witness is. Eventually we got back to hers, and took a shower together before laying down to sleep.
+
+When we laid down in her bed, she shared with me how her father scared her a lot when she was younger. She said that she never fully told Jocelyn of everything that he did because she was very defensive of him. 
+
+She described how she was required to see him for so much of her life even though she didn’t want to.
+
+Lily told me how she had a panic attack about her father and her rapist, and that’s when her mom and sister finally said that Lily didn’t need to talk to him anymore. 
+
+She laid on top of me while she told me all these things, and I squeezed her against my chest. I hoped that I could press her against me so tightly that perhaps our hearts would meet and mine could heal the parts of hers that were broken.  
+
+I could tell it was hard for her to tell me all of this. It was clear that she hadn’t had many chances to tell her side of the story in the way that she wanted to say it. 
+
+I hope that she knows it’s okay to tell me anything. Anything that could possibly be sad or upsetting. I don’t need things to be euphoric all of the time. 
+
+I just need her. In any mood or any situation. 
+
+We eventually moved away from the topic of her dad and discussed lighter things. I can’t remember exactly what we talked about. All I remember was her laughing and us kissing and then kissing turned into my hands in her hair while she kneeled at the side of the bed, her face finding all the right spots in between my legs. 
+
+Her tongue moved in patterns that made me realize that I was going to finish a lot quicker that night than I ever have before. 
+
+It also made me realize that I needed to fuck her so bad.
+
+After we were done having sex, we cuddled under the covers together and fell asleep. It was so peaceful and so quiet. I loved how safe it felt being together.`,
+
+  
+},
 
 
 
